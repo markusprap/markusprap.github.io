@@ -1,0 +1,91 @@
+body{
+  margin: 5% auto;
+  width: 60%;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  font-family: 'Oxygen', sans-serif;
+  color: rgb(87, 87, 87);
+
+}
+
+body.darkmode {
+  background: rgb(57, 57, 57);
+  color: rgb(227, 227, 227);
+}
+
+body.darkmode a{
+  color: rgb(227, 227, 227);
+}
+
+.is-hidden{
+  display: none;
+}
+
+a{
+  color: rgb(87, 87, 87);
+  font-size: 25px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+#theme {
+  font-size: 25px;
+}
+
+#theme:hover{
+  cursor: pointer;
+}
+
+.landing{
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.is-avatar{
+  border-radius: 50%;
+  margin-left: 100px;
+
+}
+
+main a{
+  font-size: 20px;
+}
+
+.colums{
+  display: flex;
+}
+
+.recommend{
+  margin-left: 200px;
+}
+
+footer{
+  margin-top: 50%;
+  text-align: center;
+}
+
+.social a{
+  font-size: 1.3em;
+  padding: 0.5rem;
+}
+
+@media only screen and (max-width: 760px) {
+  body{
+    width: 90%;
+  }
+
+  .landing{
+    display: block;
+    font-size: 0.9rem;
+  }
+
+  .colums{
+    display: block;
+  }
+}
